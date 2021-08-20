@@ -11,11 +11,6 @@ add_subdirectory( git-submodules/sfml )
 
 add_executable( sfmleton
     src/main.cpp
-    src/console.cpp
-    src/statemanager.cpp
-    src/teststate.cpp
-
-    #icon.rc
 )
 
 target_link_libraries( sfmleton
